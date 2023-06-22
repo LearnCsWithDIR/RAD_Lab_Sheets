@@ -1,0 +1,39 @@
+.Package{
+    margin-left: 20px;
+    width: 250px;
+    border: 2px solid black;
+}
+input{
+    margin-left: 10px;
+}
+
+input[type = "checkbox"]:checked+label
+{
+    font-weight: 700;
+}
+input[type="checkbox"]:not(:checked)+label{
+    color: rgb(179, 174, 174);
+    /* display: flexbox; */
+}
+
+h3{
+    margin-left: 25px;
+}
+.button{
+    margin: 10px 10px;
+    padding: 5px 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+    transition-duration: 0.6s;
+}
+.button:hover{
+
+    font-size: 17px;
+    background-color: white;
+    color: rgb(66, 21, 21);
+    border: 2px solid rgb(179, 174, 174);
+}
