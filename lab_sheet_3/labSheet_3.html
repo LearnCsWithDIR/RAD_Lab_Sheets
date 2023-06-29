@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Sheet 3</title>
+    <style>
+        .act{
+            padding: 20px;
+            margin: 30px;
+            width: 170px;
+            background-color: rgb(233, 236, 180);
+            border-radius: 10px;
+            transition-duration: 0.5s;
+
+        }
+        .allAct{
+            display: flex;
+        }
+        .act:hover{
+            background-color: bisque;
+        }
+        .short{
+            width: 60px;
+           
+            margin: 10px;
+
+        }
+        .long{
+            
+            width: 90px;
+            margin: 10px;
+        }
+
+        input[type="button"]{
+            height: 30px;
+            border: none;
+            padding: 5px;
+            background-color: rgb(21, 161, 185);
+            border-radius: 20px;
+            color: white;
+            transition-duration: 0.4s;
+
+        }
+        
+        input[type="button"]:hover{
+            border-radius: 20px;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <script src="activity_1.js"></script>
+    <script src="activity_2.js"></script>
+    <script src="activity_3.js"></script>
+
+    <div class="allAct">
+        <div class="act">
+            <h3>Activity 01</h3>
+    
+            <input class="short" type="button"  value="Q1" onclick="q_1_1()"> 
+            <br><br>
+            <input class="short" type="button"  value="Q2 a." onclick="q_1_2a()"> 
+            
+        
+            <input class="short" type="button"  value="Q2 b." onclick="q_1_2b()"> 
+            
+            <br><br>
+            <input class="short" type="button"  value="Q2 c." onclick="q_1_2c()"> 
+            
+            
+            <input class="short" type="button"  value="Q2 d." onclick="q_1_2d()"> 
+        </div>
+        
+        
+    <div class="act"> <h3>Activity 02</h3>
+    
+        <form action="">
+            <label for="">Value 1</label><input type="checkbox" value="value1" id="value1"> <br>
+            <label for="">Value 2</label><input type="checkbox" value="value2" id="value2"> <br>
+            <input class="long" type="button"  value="Q1 Check" onclick="q_2_1()"> 
+    
+        </form>
+    
+        <br>
+        <label for="">Natural number : </label><input type="number" id="value"><br>
+        <input class="long" type="button"  value="Check Type" onclick="q_2_2()"> 
+        
+        <br><br>
+        <input class="short" type="button"  value="Q3" onclick="q_2_3()"> 
+        
+        <input class="short" type="button"  value="Q4" onclick="q_2_4()"> </div>
+       
+        
+        <div class="act">
+            <h3>Activity 03</h3>
+            <input class="short" type="button"  value="Q1" onclick="q_3_1()"> 
+            
+            <input class="short" type="button"  value="Q2" onclick="display()"> 
+            <br><br>
+            <input class="short" type="button"  value="Q3" onclick="update()"> 
+        
+            <input class="short" type="button"  value="Q4" onclick="q_3_4()"> 
+        </div>
+       
+    </div>
+   
+    
+</body>
+</html>
